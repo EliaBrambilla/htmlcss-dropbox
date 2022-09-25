@@ -118,4 +118,44 @@
     margin: 15px 0;
   }
   /* / NAVBAR */
+
+  /* JUMBOTRON */
+.jumbotron {
+    background-color: #add1ea;
+    width: 1200px;
+    height: 650;
+    padding: 20px 40px;
+  }
+  
+  .container.jumbo {
+    padding-top: 50px;
+    height: 500px;
+  }
+  
+  .jumbo-text {
+    width: 320px;
+    height: 250px;
+  }
+  
+  .image-jumbo {
+    width: 650px;
+    position: relative;
+  }
+  
+  .image-jumbo img {
+    width: 600px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .bt.main.jumbo {
+    margin-bottom: 15px;
+  }
+  
+  i.fas.fa-arrow-down {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  /* / JUMBOTRON */
+  
   
