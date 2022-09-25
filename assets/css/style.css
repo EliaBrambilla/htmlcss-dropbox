@@ -157,5 +157,107 @@
     margin: 10px 0;
   }
   /* / JUMBOTRON */
+
+  /* PREZZI */
+.container.pricing{
+    height: 950px;
+    margin-top: 150px;
+  }
+  
+  form {
+    margin: 30px 0 ;
+  }
+  
+  form label {
+    margin-right: 20px;
+  }
+  
+  /* COL-CONTENUTO */
+  .col-content{
+    width: calc((100%/3) - (100px/3));
+    height: 800px;
+    border: 1px lightgrey solid;
+  }
+  
+  .col-content {
+    margin-right:50px;
+  } 
+  
+  .col-content.advanced {
+    margin-right: 0;
+  }
+  
+  .item-top { 
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px lightgrey solid;
+    text-align: center;
+  }
+  
+  .item-top p::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;   
+    margin-right: 5px;
+  }
+  .item-top.single p::before {
+    content: "\f007";  
+  }
+  
+  .item-top.team p::before {
+    content: "\f1ad";
+  }
+  
+  .details, 
+  .plane-list {
+    padding: 15px 20px;
+  }
+  
+  .price,
+  .purchase {
+    margin: 20px 0;
+  }
+  
+  .price::after {
+    content:"\f153";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 5px;
+  }
+  
+  .special-prg {
+    color: rgb(172, 170, 170);
+    margin-bottom: 30px;
+  }
+  
+  .far, 
+  .fas {
+    margin-right: 5px;
+  }
+  
+  hr {
+    width: 20%;
+    color: lightgrey;
+  }
+  
+  h5 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .plane-list li {
+    margin: 5px 0;
+    font-size: 10px;
+    list-style: none;
+  }
+  
+  .plane-list li::before {
+    content:"\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #0064fa;
+    margin-right: 5px;
+  }
+  /* /PREZZI */
+  
   
   
