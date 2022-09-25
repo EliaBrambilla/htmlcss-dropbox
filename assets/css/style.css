@@ -470,6 +470,35 @@
   }
   /* / TEAM TEXT */
   /* / CONTAINER TEAMS */
+
+  /* FAQ */
+.box-faq {
+    margin: 100px 0;
+  }
+  
+  .faq-title {
+    margin-bottom: 30px;
+  }
+  
+  hr {
+    width: 100%;
+    color: lightgrey;
+  }
+  
+  .faq {
+    margin: 20px 0
+  }
+  
+  .faq::after {
+    content: '\0203A';
+    float: right;
+    font-size: 25px;
+    font-weight:lighter;
+    line-height: 20px;
+    transform: rotate(90deg);
+  }
+  /* / FAQ */
+  
   
   
   
