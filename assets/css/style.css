@@ -258,6 +258,62 @@
     margin-right: 5px;
   }
   /* /PREZZI */
+
+  /* ENTERPRISE */  
+.container.enterprise {
+    height: 160px;
+    border: 1px lightgrey solid;
+  }
+  
+  .bt-enterprise {
+    margin-top: 20px;
+    margin-right: 20px; 
+  }
+  /* / ENTERPRISE */
+
+  /* PARTNER */
+.container.partner {
+    margin-top: 80px;
+  }
+  
+  .partner-img{
+    width: 500px;
+    height: 500px;
+    background: url('../img/partner.png') no-repeat;
+    background-size: contain;
+  }
+  
+  .partner-text {
+    width: 450px;
+    height: 200px;
+    margin: 20px 0;
+  }
+  
+  .partner-prg {
+    font-size: 15px;
+    word-spacing: 5px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  
+  .bt-partner {
+    width: 150px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px #000 solid;
+    position: relative;
+    top: 0;
+    left: 50px;
+  }
+  
+  .bt-partner a {
+    color: #000;
+    text-decoration: none;
+  }
+  /* / PARTNER */
+  
+  
   
   
   
