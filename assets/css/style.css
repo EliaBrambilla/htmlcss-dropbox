@@ -346,6 +346,131 @@
     margin: 0 60px;
   }
   /* / AZIONI */
+  /* TEAM */
+/* BOX SINISTRA */
+.container.teams {
+    width: 1200px;
+  }
+  
+  .team-text {
+    padding-left: 100px;
+  }
+  
+  .team-text h2 {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .teams-col {
+    width: 1200px;
+    height: 600px;
+    margin-top: 30px;
+    background-color: #add1ea;
+  }
+  
+  .box {
+    width: 360px;
+    height: 360px;
+  }
+  
+  .team-logo {
+    position: relative;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .team-logo img {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+  }
+  
+  .designit {
+    background-color: #8ef198;
+    border: 8px #c7eacc solid;
+  }
+  
+  .asu {
+    background-color: #6e002c;
+  }
+  
+  .florida {
+    background-color: #0095d0;
+  }
+  
+  .topps {
+    background-color: #ff001e;
+  }
+  /* / BOX SINISTRA */
+  
+  /* BOX CENTRO */
+  .box.center {
+    width: calc(100% - 720px);
+    padding: 30px 40px;
+    background-color: #efefef;
+  }
+  
+  #logo-center {
+    filter: invert(100%);
+    width: 100px;
+    height: 80px;
+  }
+  
+  .hr-small {
+    width: 10%;
+    color: #e6e6e7;
+  }
+  .box.center p {
+    margin: 20px 0;
+    font-size: 11px;
+  }
+  /* / BOX CENTRO */
+  
+  /* BOX DESTRA */
+  .wbr {
+    background-color: #ef001c;
+  }
+  
+  .hearst {
+    background-color: #abd1e9;
+  }
+  
+  .lonely-planet {
+    background-color: #091f83;
+  }
+  
+  .clear-channel {
+    background-color: #ffd737;
+  }
+  /* / BOX DESTRA */
+  
+  /* TEAM TEXT */
+  .box.business {
+    display: inline-block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 360px;
+    padding: 70px 100px;
+  }
+  
+  .business-text {
+    width: 500px;
+    color: #6e1835;
+  }
+  
+  .bt-business {
+    background: #fff;
+  }
+  
+  .bt-business a { 
+    color: #000;
+  }
+  /* / TEAM TEXT */
+  /* / CONTAINER TEAMS */
+  
   
   
   
