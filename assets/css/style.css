@@ -498,6 +498,64 @@
     transform: rotate(90deg);
   }
   /* / FAQ */
+
+  /* FOOTER */
+footer {
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    background-color: #000;
+    padding: 60px 0;
+  }
+  
+  .ft-list li {
+    width: calc((1000px / 5) - (200px / 5));
+  }
+  
+  .ft-list li a {
+    color: white;
+    line-height: 25px;
+  }
+  
+  .ft-list {
+    margin: 0 50px 50px 0;
+  }
+  
+  .ft-list.community {
+    margin-right: 0;
+  }
+  
+  .ft-list li:first-child {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hr-medium {
+    width: 10%;
+  }
+  
+  .language {
+    color: #fff;
+    margin: 40px 0;
+    font-size: 10px;
+  }
+  
+  .language p::before {
+    content: '\f57d';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .language p::after {
+    content: '\25B2';
+    color:#fff;
+    font-size: 8px;
+    margin-left: 5px;
+  }
+  /* /FOOTER */
   
   
   
