@@ -312,6 +312,41 @@
     text-decoration: none;
   }
   /* / PARTNER */
+
+  /* AZIONI */
+.container.actions {
+    height: 1200px;
+    margin-bottom: 50px;
+  }
+  
+  .container.actions h3 {
+    margin: 20px 0;
+  }
+  
+  .container.actions p {
+    font-size: 15.5px;
+  }
+  
+  .acts {
+    margin-top: 50px;
+  }
+  
+  .act {
+    width: calc(1000px / 3 - 60px);
+    height: 500px;
+    margin-bottom: 50px;
+  }
+  
+  .act img { 
+    width: 100%;
+  }
+  
+  .coordinate, 
+  .send-files {
+    margin: 0 60px;
+  }
+  /* / AZIONI */
+  
   
   
   
